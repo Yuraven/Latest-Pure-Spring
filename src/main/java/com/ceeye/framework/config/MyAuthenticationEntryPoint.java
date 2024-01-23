@@ -1,8 +1,8 @@
 package com.ceeye.framework.config;
 
-import com.alibaba.fastjson2.JSON;
 import com.ceeye.framework.enums.ResultEnum;
 import com.ceeye.framework.vo.ResultVO;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.security.core.AuthenticationException;
@@ -22,6 +22,7 @@ public class MyAuthenticationEntryPoint implements AuthenticationEntryPoint {
     @Override
     public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException authException) throws IOException {
         response.setContentType("text/json;charset=UTF-8");
-        response.getWriter().write(JSON.toJSONString(new ResultVO<>(ResultEnum.USER_NEED_AUTHORITIES,false)));
+        ObjectMapper mapper = new ObjectMapper();
+        response.getWriter().write(mapper.writeValueAsString(new ResultVO<>(ResultEnum.USER_NEED_AUTHORITIES,false)));
     }
 }

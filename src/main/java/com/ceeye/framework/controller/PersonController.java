@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.ceeye.framework.dto.PageAndSortDto;
 import com.ceeye.framework.enums.ResultEnum;
 import com.ceeye.framework.exception.CommonException;
-import com.ceeye.framework.model.Person;
+import com.ceeye.framework.entity.Person;
 import com.ceeye.framework.service.PersonService;
 import com.ceeye.framework.vo.ResultVO;
 import jakarta.annotation.Resource;

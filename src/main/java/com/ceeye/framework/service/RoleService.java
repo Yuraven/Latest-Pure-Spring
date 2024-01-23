@@ -2,7 +2,7 @@ package com.ceeye.framework.service;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.ceeye.framework.model.Role;
+import com.ceeye.framework.entity.Role;
 
 /**
  * 接口管理 Service接口

@@ -1,7 +1,7 @@
 package com.ceeye.framework.service.impl;
 
 import com.ceeye.framework.mapper.RoleMapper;
-import com.ceeye.framework.model.Role;
+import com.ceeye.framework.entity.Role;
 import com.ceeye.framework.service.RoleService;
 import org.springframework.stereotype.Service;
 

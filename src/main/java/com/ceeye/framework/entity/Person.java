@@ -1,4 +1,4 @@
-package com.ceeye.framework.model;
+package com.ceeye.framework.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;

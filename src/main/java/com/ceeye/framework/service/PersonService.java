@@ -4,7 +4,7 @@ package com.ceeye.framework.service;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.ceeye.framework.dto.PageAndSortDto;
-import com.ceeye.framework.model.Person;
+import com.ceeye.framework.entity.Person;
 
 import java.security.NoSuchAlgorithmException;
 

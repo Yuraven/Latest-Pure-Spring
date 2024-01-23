@@ -2,7 +2,7 @@ package com.ceeye.framework.mapper;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.ceeye.framework.model.Test;
+import com.ceeye.framework.entity.Test;
 
 /**
  * 测试表 Mapper 接口

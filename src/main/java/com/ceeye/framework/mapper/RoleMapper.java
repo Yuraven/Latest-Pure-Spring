@@ -2,7 +2,7 @@ package com.ceeye.framework.mapper;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.ceeye.framework.model.Role;
+import com.ceeye.framework.entity.Role;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

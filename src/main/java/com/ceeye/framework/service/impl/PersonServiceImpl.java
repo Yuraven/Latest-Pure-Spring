@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.ceeye.framework.dto.PageAndSortDto;
 import com.ceeye.framework.enums.CommonCodeEnum;
 import com.ceeye.framework.mapper.PersonMapper;
-import com.ceeye.framework.model.Person;
+import com.ceeye.framework.entity.Person;
 import com.ceeye.framework.service.PersonService;
 import org.springframework.cache.annotation.*;
 import org.springframework.stereotype.Service;
