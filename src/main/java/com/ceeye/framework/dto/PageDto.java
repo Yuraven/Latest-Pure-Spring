@@ -16,8 +16,8 @@ import lombok.ToString;
 @AllArgsConstructor
 public class PageDto {
 
-    private Integer pageSize;
+    private Integer pageSize = 1;
 
-    private Integer pageNum;
+    private Integer pageNum = 10;
 
 }

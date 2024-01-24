@@ -40,7 +40,6 @@ public class PersonServiceImpl extends IBaseServiceImpl<PersonMapper, Person> im
             }
     )
     public Person savePerson(Person person) throws NoSuchAlgorithmException {
-        int a,b,c;
         if (person.getId() == null) {
             if (super.save(person)) {
                 String encryptPassword = encryptPassword(CommonCodeEnum.DEFAULT_PASSWORD.getValue(), person.getId());
